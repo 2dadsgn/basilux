@@ -17,6 +17,8 @@ All control logic and the web user interface are hosted locally on the microcont
 *   **Integrated Web Dashboard:** A mobile-first interface served directly from the ESP8266's Flash memory (`PROGMEM`). It features real-time animated circular progress rings for each pot's hydration status, brightness sliders, and schedule selectors.
 *   **Autonomous Time Synchronization:** Precise management of day/night cycles via the NTP protocol, with automatic time zone and daylight saving time adjustments.
 
+<img src="https://github.com/2dadsgn/basilux/blob/main/source_img/schema.jpg" alt="Basilux Dashboard" width="350"/>
+
 ## 🛠️ Hardware Architecture
 
 The system is centralized within a dedicated case from which wiring branches out to the operational modules in the individual pots.
